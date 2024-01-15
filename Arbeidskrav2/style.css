@@ -20,14 +20,29 @@ body{
     max-width: var(--maxsize);
     margin: 200px;
     max-width: 1100px;
-    background-color: var(--lightbue);
 }
 
 ul{
     padding: 5px;
     list-style-type: none;
     display: flex;
-
     font-size: var(--fontsize);
-    gap: 7rem;
+    gap: 1rem;
+}
+
+ul li{
+    background-color: var(--lightbue);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: var(--white);
+}
+
+ul li:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+#content h2 {
+    background-color: aqua;
 }
