@@ -1,2 +1,1 @@
-# UIN24_webshop-Erik
-LEGOdudes Webshop - en oppfriskning
+# UIN24ak2_resource_layout_Moræus
