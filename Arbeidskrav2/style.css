@@ -14,7 +14,7 @@ body{
     background-color: var(--gray);
     font-family: var(--font);
 }
-
+/*Nav*/
 #container {
     width: 100%;
     max-width: var(--maxsize);
@@ -22,27 +22,52 @@ body{
     max-width: 1100px;
 }
 
-ul{
-    padding: 5px;
+#container ul{
+    padding: 1px;
     list-style-type: none;
     display: flex;
     font-size: var(--fontsize);
     gap: 1rem;
+    display: flex;
+    position: relative;
 }
 
-ul li{
+#container ul li{
     background-color: var(--lightbue);
-    padding: 20px;
+    padding: 25px;
     padding-left: 40px;
     padding-right: 40px;
     color: var(--white);
+    cursor: pointer;
 }
 
-ul li:hover {
+#container ul li:hover {
     background-color: var(--white);
     color: var(--black);
+    cursor: pointer;
 }
-
-#content h2 {
-    background-color: aqua;
+/*Contentbox*/
+#content{
+    background-color: var(--white);
+    position: absolute;
+    top: 268px;
+    left: 209px;
+    width: 1039px;
+    height: 400px;
+}
+#infolinker ul{
+    text-decoration: none;
+    list-style-type: disc;
+}
+.title {
+    margin: 20px;
+}
+.description {
+    margin: 20px;
+}
+.infolinker {
+    margin: 20px;
+}
+h3{
+    margin: 20px;
 }
