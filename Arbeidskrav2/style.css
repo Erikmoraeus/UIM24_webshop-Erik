@@ -71,3 +71,28 @@ body{
 h3{
     margin: 20px;
 }
+/* Media Queries for å lage det responsivt når skjermen blir mindre,
+ hvis det blir under 600px blir det liggende under hverandre*/
+@media only screen and (max-width: 600px) {
+    #container{
+        margin-top: 0; 
+    }
+    #container ul {
+        flex-direction: column;
+        width: 25%; 
+        height: 10%;
+    }
+    #container ul li{
+        margin-top: 0;
+        padding: 40px;
+        padding-right: 140px; 
+    }
+
+    #content {
+        width: 100%; 
+        max-width: none;  
+        left: 25%; 
+        top: 100%; 
+        padding-bottom: 0%;
+    }
+}
